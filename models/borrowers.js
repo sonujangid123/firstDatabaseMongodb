@@ -16,5 +16,5 @@ import mongoose  from "mongoose";
 
 });
 
-const BorrowerModel = mongoose.model("borrower" , BorrowerSchema);
+const BorrowerModel = mongoose.model("borrowers" , BorrowerSchema);
 export default BorrowerModel;

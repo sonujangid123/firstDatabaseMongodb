@@ -10,5 +10,5 @@ import mongoose  from "mongoose";
 
 });
 
-const AuthorModel = mongoose.model("author" , AuthorSchema);
+const AuthorModel = mongoose.model("authors" , AuthorSchema);
 export default AuthorModel;
