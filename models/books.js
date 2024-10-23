@@ -10,5 +10,5 @@ import mongoose  from "mongoose";
     totalCopies: Number,
 });
 
-const BookModel = mongoose.model("book" , BookSchema);
+const BookModel = mongoose.model("books" , BookSchema);
 export default BookModel;
